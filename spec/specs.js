@@ -1,3 +1,29 @@
+// Player
+//   initialize()
+//   create()
+//   this.symbol
+// Space
+//   initialize()
+//   create()
+//   this.xCoordinate
+//   this.yCoordinate
+//   markBy()
+//   this.markedBy
+//   find()
+// Board
+//   initialize()
+//   create()
+//   this.spaces[]
+//   win()
+// Game
+//   initialize()
+//   create()
+//   players[]
+//   board[]
+//   turn()
+//   gameOver()
+
+
 describe("Player", function() {
   describe("initialize", function() {
     it("is initialized with a symbol", function() {
